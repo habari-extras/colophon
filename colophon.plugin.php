@@ -6,7 +6,7 @@
 *
 * Example usage in PHP template:
 *
-* <?php if (Plugins::is_loaded('Colophon')) { ?>
+* <?php if (Plugins::is_loaded('Colophon Plugin')) { ?>
 * 	<h2><?php $theme->colophon_title; ?></h2>
 * 	<?php $theme->colophon; ?>
 * <?php } ?>
@@ -15,7 +15,7 @@
 
 class Colophon extends Plugin
 {
-	const VERSION = '0.5-0.4';
+	const VERSION = '0.4.1';
 
 	/**
 	* Required plugin information
